@@ -10,6 +10,34 @@ h1{
 .padding{
     padding: 30px;
 }
-.item-centre{
+.item-center{
     align-items: center;
 }
+
+.button{
+    padding: 30px;
+    width: 66px;
+    margin: 2px 3px;
+    border: 2px solid black;  
+    border-radius: 9px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1rem;
+
+}
+.eqbutton{
+    width: 143px;
+    border-radius: 100px;
+}
+.input{
+    width: 280px;
+    height: 50px;
+    border: 5px solid black;
+    border-radius: 9px;
+    margin-bottom: 8px;
+    font-size: 3rem;
+}
+/* .result{
+    text-align: center  ;
+    margin-bottom: 10px;
+} */
