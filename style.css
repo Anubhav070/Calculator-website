@@ -41,3 +41,12 @@ h1{
     text-align: center  ;
     margin-bottom: 10px;
 } */
+.main{
+    background-color: yellowgreen;
+    border-radius: 40px;
+    
+}
+
+.page{
+    background-color: pink;
+}
