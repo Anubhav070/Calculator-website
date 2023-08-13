@@ -1,0 +1,15 @@
+h1{
+    color: blue;
+}
+.text-centre{
+    text-align: center;
+}
+.bg-red{
+    background: red;
+}
+.padding{
+    padding: 30px;
+}
+.item-centre{
+    align-items: center;
+}
