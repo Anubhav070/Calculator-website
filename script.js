@@ -1,4 +1,14 @@
 let string = "";
+setInterval(Time, 1000);
+
+function Time(){
+  let d = new Date();
+  document.getElementById("livetime").innerHTML = 
+  d.getHours()+ ":" +
+  d.getMinutes() + ":" +
+  d.getSeconds();  
+}
+
 let buttons = document.querySelectorAll('.button');
 Array.from(buttons).forEach((button)=>{
   button.addEventListener('click', (e)=>{
